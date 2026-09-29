@@ -88,7 +88,7 @@ class Drone(Entity):
         self.visual_parts = []
         
         # Model Components
-        self.body = Entity(parent=self, model='cube', scale=(1.2, 0.2, 1.2), color=color.black)
+        self.body = Entity(parent=self, model='cube', scale=(1.2, 0.2, 1.2),  color=color.black)
         self.arm1 = Entity(parent=self, model='cube', scale=(2.2, 0.1, 0.2), color=color.black)
         self.arm2 = Entity(parent=self, model='cube', scale=(0.2, 0.1, 2.2), color=color.black)
         self.nose = Entity(parent=self, model='sphere', scale=(0.3, 0.3, 0.3), position=(0, 0.1, 0.6), color=color.red)
